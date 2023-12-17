@@ -2,19 +2,19 @@
 
 Variant type implementation for TypeScript.
 
-This package provides two classes "Vrant" for a general variants of type: `[string, any]` and `Result` for a Result type
+This package provides two classes "Variant" for a general variants of type: `[string, any]` and `Result` for a Result type
 
 
 ## Installation
 
 node
 ```sh
-npm install vrant
+npm install nonull
 ```
 
 deno
 ```ts
-import { Variant, Result } from "https://deno.land/x/vrant/mod.ts";
+import { Variant, Result } from "https://deno.land/x/nonull/mod.ts";
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ import { Variant, Result } from "https://deno.land/x/vrant/mod.ts";
 ### Variant
 
 ```ts
-import { Variant } from "vrant";
+import { Variant } from "nonull";
 
 type V1 =
   | ["foo", number]
@@ -50,7 +50,7 @@ if (Variant.is(v1, "foo")) {
 ### Result
 
 ```ts
-import { Result } from "vrant";
+import { Result } from "nonull";
 
 const result = Result.ok(3);
 
