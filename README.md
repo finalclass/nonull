@@ -168,8 +168,6 @@ It's methods are as follows:
   mapErr<NewErr>(f: (reason: Err) => NewErr): Chain<Ok, NewErr>;
   unwrap(): Ok;
   match<Return>(cases: { ok: (value: Ok) => Return; err: (reason: Err) => Return; }): Return;
-ts
-
 
 
 
