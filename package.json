@@ -1,0 +1,29 @@
+{
+  "name": "vrant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/mod.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-publish": "npm run build",
+    "build": "deno2node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finalclass/vrant.git"
+  },
+  "keywords": [
+    "variant",
+    "type",
+    "typescript"
+  ],
+  "author": "Szymon Wygnański",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finalclass/vrant/issues"
+  },
+  "homepage": "https://github.com/finalclass/vrant#readme",
+  "devDependencies": {
+    "deno2node": "1.11.0"
+  }
+}
