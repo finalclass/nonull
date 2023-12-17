@@ -9,12 +9,12 @@ This package provides two classes "Variant" for a general variants of type: `[st
 
 node
 ```sh
-npm install variat
+npm install variant
 ```
 
 deno
 ```ts
-import { Variant, Result } from "https://deno.land/x/variat/mod.ts";
+import { Variant, Result } from "https://deno.land/x/variant/mod.ts";
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ import { Variant, Result } from "https://deno.land/x/variat/mod.ts";
 ### Variant
 
 ```ts
-import { Variant } from "variat";
+import { Variant } from "@sel/variant";
 
 type V1 =
   | ["foo", number]
@@ -50,7 +50,7 @@ if (Variant.is(v1, "foo")) {
 ### Result
 
 ```ts
-import { Result } from "variat";
+import { Result } from "@sel/variant";
 
 const result = Result.ok(3);
 

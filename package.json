@@ -1,5 +1,5 @@
 {
-  "name": "variat",
+  "name": "@sel/variant",
   "version": "1.0.0",
   "description": "",
   "main": "dist/mod.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finalclass/variat.git"
+    "url": "git+https://github.com/finalclass/variant.git"
   },
   "keywords": [
     "variant",
@@ -20,9 +20,9 @@
   "author": "Szymon Wygnański",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/finalclass/variat/issues"
+    "url": "https://github.com/finalclass/variant/issues"
   },
-  "homepage": "https://github.com/finalclass/variat#readme",
+  "homepage": "https://github.com/finalclass/variant#readme",
   "devDependencies": {
     "deno2node": "1.11.0"
   }
