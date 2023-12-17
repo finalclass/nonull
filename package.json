@@ -1,5 +1,5 @@
 {
-  "name": "vrant",
+  "name": "variat",
   "version": "1.0.0",
   "description": "",
   "main": "dist/mod.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finalclass/vrant.git"
+    "url": "git+https://github.com/finalclass/variat.git"
   },
   "keywords": [
     "variant",
@@ -20,9 +20,9 @@
   "author": "Szymon Wygnański",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/finalclass/vrant/issues"
+    "url": "https://github.com/finalclass/variat/issues"
   },
-  "homepage": "https://github.com/finalclass/vrant#readme",
+  "homepage": "https://github.com/finalclass/variat#readme",
   "devDependencies": {
     "deno2node": "1.11.0"
   }
